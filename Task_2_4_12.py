@@ -1,5 +1,10 @@
 #Task 2.4.12
 
+import matplotlib as mpl
+import matplotlib.pylab as plt
+from PIL import Image
+import numpy as np
+
 im=Image.open('img01.png')
 temp=np.array(im)
 
