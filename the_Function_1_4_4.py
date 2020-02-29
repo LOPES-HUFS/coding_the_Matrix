@@ -13,3 +13,15 @@ def boston_cryptograph_encryption(p, k):
             return 1
         else:
             return 1
+        
+ def good_boston_cryptograph_encryption(p, k):
+    if p == 0:
+        if k == "♣︎":
+            return 0
+        else:
+            return 1
+    else:
+        if k == "♣︎":
+            return 1
+        else:
+            return 0
